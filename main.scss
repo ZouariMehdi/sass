@@ -8,6 +8,9 @@ $theme: "light";
     color: white;
   }
 }
+.box {
+  background-color: red;
+}
 $rounded: false;
 .box {
   border-radius: if($rounded==true, 6px, null);
