@@ -1,0 +1,14 @@
+$theme: "light";
+.page {
+  @if $theme== "light" {
+    background-color: white;
+    color: black;
+  } @else {
+    background-color: black;
+    color: white;
+  }
+}
+$rounded: false;
+.box {
+  border-radius: if($rounded==true, 6px, null);
+}
